@@ -31,5 +31,5 @@ This removes the hassle of clicking "enter" button everytime.
 
 The scope of this project is vast and can be incorporated in various other projects as needed.
 
-#Note:- 
+# Note:- 
 This project also has a rest-api for ease of access. The api is currently hosted locally using justpy framework. The api details can be found here: https://github.com/ShrishJaiswal/Instant_DictionaryApp_api
