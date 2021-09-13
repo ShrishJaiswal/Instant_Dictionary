@@ -1,10 +1,9 @@
-from logging import PlaceHolder
-from typing import Container
 import justpy as jp
 from justpy import tailwind
 import definition
 from webapp import layout
 from webapp import page
+
 
 class Dictionary(page.Page):
     path="/dictionary"
@@ -35,6 +34,7 @@ class Dictionary(page.Page):
     @staticmethod
     def get_definition(widget, msg):
         defined=definition.Definition(widget.value).get()
+        
         widget.outputdiv.text=" ".join(defined)
 
 
