@@ -9,5 +9,3 @@ class Definition:
         df=pd.read_csv('dictionary.csv')
         return tuple(df.loc[df['word']==self.term]['definition'])
 
-d=Definition(term='Farmer')
-print(d.get())

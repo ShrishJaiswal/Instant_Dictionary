@@ -1,15 +1,22 @@
 from logging import PlaceHolder
+from typing import Container
 import justpy as jp
 from justpy import tailwind
 import definition
+from webapp import layout
+from webapp import page
 
-class Dictionary:
+class Dictionary(page.Page):
     path="/dictionary"
     @classmethod
     def serve(cls, req):
 
         wp=jp.QuasarPage(tailwind=True)
-        div=jp.Div(a=wp, classes="bg-gray-200 h-screen")
+
+        lay=layout.DefaultLayout(a=wp)
+        container=jp.QPageContainer(a=lay)
+
+        div=jp.Div(a=container, classes="bg-gray-200 h-screen")
         jp.Div(a=div, text="English Dictionary", classes="text-4xl m-2")
         jp.Div(a=div, text="Get the definition of any English word instantly as you type", classes="text-lg")
         
