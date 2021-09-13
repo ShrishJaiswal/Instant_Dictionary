@@ -1,0 +1,15 @@
+Title: Dictionary Web Application
+Description: A web application that lets user input a word in the text area and returns the meaning or definition of the words
+             as soon as user finish typing.
+             The application consists of:-
+                1) Homepage
+                2) Navigation Menu
+                3) About Page
+                4) Dictionary interface
+Objects: Definition:
+           1) term
+           2) get()
+        Navigation Bar
+        Homepage
+        Dictionary Page
+        About Page

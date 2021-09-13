@@ -1,0 +1,7 @@
+# Created to log files to be ignored
+.idea/.gitignore
+.idea/Instant-Dictionary-Webapp.iml
+.idea/InspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
